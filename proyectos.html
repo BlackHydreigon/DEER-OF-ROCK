@@ -5,31 +5,57 @@
         <link rel="icon" type="text/css" href="MEDIA/IMAGENES/icono.png">
         <link rel="stylesheet" type="text/css" href="CSS/estilo.css">
                 <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+                <script src="libs/bootstrap/js/bootstrap.min.js"></script>
+
 
     </head>
     <body>
-        <header class="header" id="header">
-           
-            
-             <nav class="menu">
-                 
-                <ul>
-                    
-                    <li><a href="index.html"><div >
-                        <img src="MEDIA/IMAGENES/foto-patronius.png" alt="logo de la pagina" width="70px" height="70px">
-                       </div></a></li>
-                    <li><a href="proyectos.html">proyectos</a></li>
-                    <li><a href="">betas</a></li>
-                    <li><a href="conceptosiniciales.html">conceptos iniciales</a></li>
-                    <li><a href="">registrate</a></li>
-                    <li><a href="">iniciar sesion</a></li>
+                    <!--inicia el header con bootstrap-->
+                    <nav class="navbar navbar-expand-lg " style="background-color: rgb(3, 1, 36);">
+                        <div class="container-fluid">
+                            <a class="navbar-brand" href="#">
+                                <img src="MEDIA/IMAGENES/foto-patronius.png" alt="" width="60" height="60">
+                              </a>
+                          
+                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                              <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">conocenos</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="catalogo.html">catalogo</a>
+                              </li>
+                              <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  ---
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                  <li><a class="dropdown-item" href="registro.html">registrarse</a></li>
+                                  <li><a class="dropdown-item" href="login.html">inicio de sesion</a></li>
+                                  <li><hr class="dropdown-divider"></li>
+                                  <li><a class="dropdown-item" href="#"></a></li>
+                                </ul>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                              </li>
+                            </ul>
+                            <form class="d-flex">
+                              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                              <button class="btn btn-outline-success" type="submit">Search</button>
+                            </form>
+                          </div>
+                        </div>
+                      </nav>
+        
+                 </header>
+                 <!--aqui finaliza el header con bootstrap-->
+        
 
-                </ul>
-
-             </nav>
-
-         </header>        
-         <main class="main">
+        <main class="main">
              <div class="contenedor">
 
                 <h1>DESCRIPCION DEL PROYECTO IMPERIAL INFERNÓ</h1>
