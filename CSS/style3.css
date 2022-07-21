@@ -64,17 +64,20 @@
   .form-login a:hover {
     text-decoration: underline;
   }
-
-.header { 
+  .header { 
     background: #0b0225;
     color:white;
-    padding:2rem 0 ;
+    padding:0 ;
     
 }
 .header nav{
 color:white;
 text-decoration: none;
 }
+  /*aqui empiez el header*/
+  /*
+
+
 
 
 .logo{
@@ -111,6 +114,7 @@ border-radius: 5px;
      max-width: 850px;
      margin: 0 auto;
  }
+*/
  .footer{
   background: #0b0225 ;
   padding: 4rem 0;

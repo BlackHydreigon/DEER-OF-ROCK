@@ -196,3 +196,61 @@ border-radius: 5px;
     }
   
   } 
+  /*aqui empieza el codigo del formulario login*/
+    
+  .form-login {
+    width: 400px;
+    height: 340px;
+    background:#0b0225 ;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    box-shadow: 2px 13px 37px rgb(104, 156, 233);
+    padding: 20px 30px;
+    border-top: 4px solid #0b0225;
+    color: rgb(255, 255, 255);
+  }
+  
+  .form-login h5 {
+    margin: 0;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 30px;
+    font-size: 20px;
+  }
+  
+  .controls {
+    width: 100%;
+    border: 1px solid #017bab;
+    margin-bottom: 15px;
+    padding: 11px 10px;
+    background: #252323;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .buttons {
+    width: 100%;
+    height: 40px;
+    background: #5985e2;
+    border: none;
+    color: rgb(255, 255, 255);
+    margin-bottom: 16px;
+  }
+  
+  .form-login p{
+    height: 40px;
+    text-align: center;
+    
+  }
+  
+  .form-login a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .form-login a:hover {
+    text-decoration: underline;
+  }
+/*aqui termina el codigo del formulario login*/
