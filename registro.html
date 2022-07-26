@@ -15,8 +15,8 @@
             <!--inicia el header con bootstrap-->
             <nav class="navbar navbar-expand-lg " style="background-color: rgb(3, 1, 36);">
               <div class="container-fluid">
-                  <a class="navbar-brand" href="#">
-                      <img src="MEDIA/IMAGENES/foto-patronius.png" alt="" width="60" height="60">
+                  <a class="navbar-brand" href="index.html">
+                      <img src="MEDIA/IMAGENES/nlogo.png" alt="" width="60" height="60">
                     </a>
                 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,10 +45,6 @@
                       <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
                     </li>
                   </ul>
-                  <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                  </form>
                 </div>
               </div>
             </nav>
@@ -58,14 +54,18 @@
 
   <section class="form-register">
     <h4>REGISTRATE</h4>
-    <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre completo">
-    <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="ingrese su nombre de usuario">
+    <form action="/controlador/r_usuarios.php" method="post">
+    <input class="controls" type="text" name="nombrecompleto" id="nombres" placeholder="Nombre completo">
+    <input class="controls" type="text" name="nombre_usuario" id="apellidos" placeholder="nombre de usuario">
     <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo">
-    <input class="controls" type="password" name="correo" id="correo" placeholder="Ingrese su Contraseña">
-    <input class="controls" type="password" name="correo" id="correo" placeholder="confirme su Contraseña">
+    <input class="controls" type="password" name="contrasena" id="contrasena" placeholder="Ingrese su Contraseña">
+    <br>
+    <input type="hidden" name="perfil" value="u">
+    <br>
     <p>Estoy de acuerdo con <a href="#">Terminos y Condiciones</a></p>
     <input class="botons" type="submit" value="Registrar">
     <p><a href="#">¿Ya tengo Cuenta?</a></p>
+  </form>
   </section>
   <footer class="footer">
     <p>
