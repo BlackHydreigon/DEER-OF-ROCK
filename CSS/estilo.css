@@ -254,3 +254,17 @@ border-radius: 5px;
     text-decoration: underline;
   }
 /*aqui termina el codigo del formulario login*/
+
+.pestaña_c{
+  margin: 10px;
+  height: 26rem;
+  border-color: aqua;
+  border
+  border-style: ;
+  border-style: inset;
+}
+.pestaña_c img{
+  max-height: 410px;
+  padding: 8px;
+  padding-bottom: 8px;
+}
