@@ -1,16 +1,8 @@
 <?php 
-$contrasena = "";
-$usuario = "root";
-$nombre_bd = "crud";
 
 try {
-	$bd = new PDO (
-		'mysql:host=localhost;
-		dbname='.$nombre_bd,
-		$usuario,
-		$contrasena,
-		array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8")
-	);
+	$con = new mysqli ('localhost','root','','proyecto');
+
 } catch (Exception $e) {
 	echo "qhubo pues papi no da , que hacemos pues?  ".$e->getMessage();
 }

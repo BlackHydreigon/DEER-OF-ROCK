@@ -1,27 +1,31 @@
-<?php // 
-/*session_start();
-error_reporting(0);
-$varsesion = $_SESSION['usuario'];
-if ($varsesion==null || $varsesion='') {
-    echo"<script>alert('Usted no tiene autorizacion');window.location='../../vista/registrarse.php';</script>"; 
-                session_destroy();//TERMINA LA SESIONES
-}*/
-if(!empty($_POST)){//!empty($_POST) significa diferente de vacío - verifica los inputs no este vacío
-    if(isset($_POST["nombrecompleto"]) &&isset($_POST["nombre_usuario"]) &&isset($_POST["correo"]) &&isset($_POST["contrasena"]) &&isset($_POST["perfil"]))
-    {//la funcion isset() comprobar que la variable existe
-            include "conexion.php";//llama a la conexión Para llevar la consulta SQL a la BD
-            $sql = "insert into usuario (nombre_completo,N_usuario,correo,contrasena,perfil) value (\"$_POST[nombrecompleto]\",
-            \"$_POST[nombre_usuario]\",\"$_POST[correo]\",\"$_POST[contrasena]\",\"$_POST[perfil]\")";
-            //Codigo SQL para insertar, guardar, registrar un usuario basico 
-            //$query = $con->query($sql);//este es la consulta query da como la orden de a conexion.php poder ejecutar la orden en la BD
-            //RESPUESTA DEL BD 
-            //if($query!=null){//Preguntamos a la base de datos si viene vacia para tomar una decisión 
-                //si viene con una respuesta entonces saca este mensaje de dato de salida en la vista 
-               // print "<script>alert(\"Agregado exitosamente.\");window.location='../../registro.html';</script>";
-                // }else{
-                     //si esta vacio entonces saca este mensaje de dato de salida en la vista
-            // print "<script>alert(\"No se pudo agregar.\");window.location='../../registro.html';</script>";
-            }
-        }
-    //}       
-    ?>
+<?php
+
+if (!empty($_POST["nombrecompleto"])and!empty($_POST["nombre_usuario"])and !empty($_POST["correo"]) and !empty($_POST["contrasena"])and !empty($_POST["perfil"])){
+    include ('conexion.php');
+    echo '<br><br>';
+
+    $nombre=  $_POST["nombrecompleto"];
+    $N_usuario=$_POST["nombre_usuario"];
+    $correo=$_POST["correo"];
+    $contraseña=$_POST["contrasena"];
+    $perfil=$_POST["perfil"];
+
+
+
+
+    $consulta_sql= "INSERT INTO usuarios (nombre_completo,N_usuario,correo,contrasena,perfil) VALUES ('$nombre','$N_usuario' ,'$correo','$contraseña','$perfil')";
+
+    $query_mysql = $con->query($consulta_sql); 
+    if($query_mysql==true ){
+        echo "el registro se guardo correctamente";
+    }
+    else{
+        echo "el registro no se pudo guardar";
+    }
+    echo '<br><br>';
+    var_dump ($query_mysql);
+    $con->close();
+
+}
+?>
+
