@@ -29,10 +29,11 @@
             }
             else { //si el registro es valido, verifico si es admin o user
             //datos de proceso
-            if($result[4] == 'a'){
+            if($result[1] == 'a'){
                  //datos de salida
                 echo "<script>window.location='../../PROYECTO CON CRUD/menuadmin.php';</script>";
-                }else{
+                }
+                else{
             
                 //datos de salida
                     echo "<script>window.location='../../PROYECTO CON CRUD/menuusuario.php';</script>"; 
