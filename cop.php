@@ -25,3 +25,14 @@ if(!empty($_POST)){//!empty($_POST) significa diferente de vacío - verifica los
         }
     //}       
     ?>
+       if($query_mysql==true ){
+        echo "el registro se guardo correctamente";
+    }
+    else{
+        echo "el registro no se pudo guardar";
+    }
+    echo '<br><br>';
+    var_dump ($query_mysql);
+    $con->close();
+
+}

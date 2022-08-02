@@ -4,6 +4,12 @@
     <meta charset="utf-8">
     <title>INICIAR SESION.</title>
     <script src="libs/bootstrap/js/bootstrap.min.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.modal');
+        var instances = M.Modal.init(elems);
+      });
+      </script>
 
     <link rel="stylesheet" href="CSS/style3.css">
     <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
@@ -55,7 +61,7 @@
 
     <section class="form-login">
       <h5>INICIAR SESION. </h5>
-      <form action="" method="post">
+      <form action="validar.php" method="post">
       <input class="controls" type="text" name="usuario" value="" placeholder="Usuario" required>
       <input class="controls" type="password" name="contrasena" value="" placeholder="Contraseña" required>
       <input class="buttons" type="submit" name="" value="Ingresar">
