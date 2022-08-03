@@ -32,7 +32,7 @@
   }
   
   .controls {
-    color: rgb(254, 255, 255);
+    color: rgb(255, 255, 255);
     width: 100%;
     border: 1px solid #017bab;
     margin-bottom: 15px;
@@ -48,7 +48,6 @@
     height: 40px;
     background: #5985e2;
     border: none;
-    color: rgb(255, 255, 255);
     margin-bottom: 16px;
   }
   
@@ -121,7 +120,7 @@ border-radius: 5px;
 */
  .footer{
   background: #0b0225 ;
-  padding: 4rem 0;
+  padding: 2rem 0;
   text-align: center;
   color: white;
 
