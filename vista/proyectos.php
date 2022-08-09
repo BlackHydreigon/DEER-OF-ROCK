@@ -3,9 +3,9 @@
         <title>deer of rock</title>
         <meta charset="utf-8">
         <link rel="icon" type="text/css" href="MEDIA/IMAGENES/icono.png">
-        <link rel="stylesheet" type="text/css" href="CSS/estilo.css">
-                <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
-                <script src="libs/bootstrap/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="../CSS/estilo.css">
+                <link rel="stylesheet" href="../libs/bootstrap/css/bootstrap.min.css">
+                <script src="../libs/bootstrap/js/bootstrap.min.js"></script>
 
 
     </head>
@@ -13,8 +13,8 @@
                     <!--inicia el header con bootstrap-->
                     <nav class="navbar navbar-expand-lg " style="background-color: rgb(3, 1, 36);">
                         <div class="container-fluid">
-                            <a class="navbar-brand" href="index.html">
-                                <img src="MEDIA/IMAGENES/nlogo.png" alt="" width="60" height="60">
+                            <a class="navbar-brand" href="../index.html">
+                                <img src="../MEDIA/IMAGENES/nlogo.png" alt="" width="60" height="60">
                               </a>
                           
                           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -69,10 +69,10 @@
          </main>
          <footer class="footer">
             <p>
-                <a href="https://www.facebook.com" target="_black"><img src="MEDIA/IMAGENES/facebook.png" alt="image de red social facebook"></a>
-                <a href="https://www.twitter.com" target="_black"><img src="MEDIA/IMAGENES/twitter.png" alt="image de red social twitter"></a>
-                <a href="https://www.gmail.com" target="_black"><img src="MEDIA/IMAGENES/gmail.png" alt="envia un mensaje al administrador"></a>
-             </p>  
+              <a href="https://www.facebook.com" target="_black"><img src="../MEDIA/IMAGENES/facebook.png" alt="image de red social facebook"></a>
+              <a href="https://www.twitter.com" target="_black"><img src="../MEDIA/IMAGENES/twitter.png" alt="image de red social twitter"></a>
+              <a href="https://www.gmail.com" target="_black"><img src="../MEDIA/IMAGENES/gmail.png" alt="envia un mensaje al administrador"></a>
+                   </p>  
              <br>
              <p>pagina creada el 2021 por juan jose giraldo botero y alejandro duque gomez</p>
         </footer>

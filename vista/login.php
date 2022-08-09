@@ -3,19 +3,19 @@
   <head>
     <meta charset="utf-8">
     <title>INICIAR SESION.</title>
-    <script src="libs/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../libs/bootstrap/js/bootstrap.min.js"></script>
 
 
-    <link rel="stylesheet" href="CSS/style3.css">
-    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../CSS/style3.css">
+    <link rel="stylesheet" href="../libs/bootstrap/css/bootstrap.min.css">
 
   </head>
   <body>
             <!--inicia el header con bootstrap-->
             <nav class="navbar navbar-expand-lg " style="background-color: rgb(3, 1, 36);">
               <div class="container-fluid">
-                  <a class="navbar-brand" href="index.html">
-                      <img src="MEDIA/IMAGENES/nlogo.png" alt="" width="60" height="60">
+                  <a class="navbar-brand" href="../index.html">
+                      <img src="../MEDIA/IMAGENES/nlogo.png" alt="" width="60" height="60">
                     </a>
                 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -66,9 +66,9 @@
     </section>
     <footer class="footer">
       <p>
-          <a href="https://www.facebook.com" target="_black"><img src="MEDIA/IMAGENES/facebook.png" alt="image de red social facebook"></a>
-          <a href="https://www.twitter.com" target="_black"><img src="MEDIA/IMAGENES/twitter.png" alt="image de red social twitter"></a>
-          <a href="https://www.gmail.com" target="_black"><img src="MEDIA/IMAGENES/gmail.png" alt="envia un mensaje al administrador"></a>
+        <a href="https://www.facebook.com" target="_black"><img src="../MEDIA/IMAGENES/facebook.png" alt="image de red social facebook"></a>
+        <a href="https://www.twitter.com" target="_black"><img src="../MEDIA/IMAGENES/twitter.png" alt="image de red social twitter"></a>
+        <a href="https://www.gmail.com" target="_black"><img src="../MEDIA/IMAGENES/gmail.png" alt="envia un mensaje al administrador"></a>
        </p>  
        <br>
        <p>pagina creada el 2021 por juan jose giraldo botero y alejandro duque gomez</p>

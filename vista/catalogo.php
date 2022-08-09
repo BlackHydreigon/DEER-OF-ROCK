@@ -4,9 +4,9 @@
  scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-sclae=1.0">
  <meta charset="UFT-8">
   <title>galeria de imagenes</title>
-  <link rel="stylesheet" href="CSS/estilo.css">
-  <link rel="stylesheet" href="">
-  <script src="libs/bootstrap/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="../CSS/estilo.css">
+  <link rel="stylesheet" href="../libs/bootstrap/css/bootstrap.min.css">
+  <script src="../libs/bootstrap/js/bootstrap.min.js"></script>
 
 
 </head>
@@ -14,8 +14,8 @@
               <!--inicia el header con bootstrap-->
               <nav class="navbar navbar-expand-lg " style="background-color: rgb(3, 1, 36);">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="index.html">
-                        <img src="MEDIA/IMAGENES/nlogo.png" alt="" width="60" height="60">
+                    <a class="navbar-brand" href="../index.html">
+                        <img src="../MEDIA/IMAGENES/nlogo.png" alt="" width="60" height="60">
                       </a>
                   
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -56,7 +56,7 @@
   <div class="container">
     
     <div class="item">
-        <img src="MEDIA/IMAGENES/Captura de pantalla (275).png" alt="" class="item-img">
+        <img src="../MEDIA/IMAGENES/Captura de pantalla (275).png" alt="" class="item-img">
         <div class="item-text">
          <h3>barra de vida</h3>
          <p>esta sera la barra que mostrara tu cantidad de salud durante el juego,
@@ -68,7 +68,7 @@
      </div>
 
      <div class="item">
-        <img src="MEDIA/IMAGENES/Captura de pantalla (276).png" alt="" class="item-img">
+        <img src="../MEDIA/IMAGENES/Captura de pantalla (276).png" alt="" class="item-img">
         <div class="item-text">
          <h3>barra de escudo</h3>
          <p>esta sera una barra que te indica el estado de tu armadura, cuando esta completamente llena,
@@ -81,7 +81,7 @@
      </div>
 
      <div class="item">
-        <img src="MEDIA/IMAGENES/Captura de pantalla (287).png" alt="" class="item-img">
+        <img src="../MEDIA/IMAGENES/Captura de pantalla (287).png" alt="" class="item-img">
         <div class="item-text">
          <h3>pocion de escudo</h3>
          <p>esta pocion consumible te dara un plus de proteccion, basicamente
@@ -93,7 +93,7 @@
      </div>
 
      <div class="item">
-        <img src="MEDIA/IMAGENES/Captura de pantalla (288).png" alt="" class="item-img">
+        <img src="../MEDIA/IMAGENES/Captura de pantalla (288).png" alt="" class="item-img">
         <div class="item-text">
          <h3>pocion de salud</h3>
          <p>aqui tenemos una pocion consumible que curara la mayoria de tus heridas, regenerandote parte de tu salud.
@@ -104,7 +104,7 @@
      </div>
 
      <div class="item">
-        <img src="MEDIA/IMAGENES/Captura de pantalla (289).png" alt="" class="item-img">
+        <img src="../MEDIA/IMAGENES/Captura de pantalla (289).png" alt="" class="item-img">
         <div class="item-text">
          <h3>runa antigua</h3>
          <p>este objeto estara presente como una manera de mejorar tus armas
@@ -117,7 +117,7 @@
      </div>
 
      <div class="item">
-        <img src="MEDIA/IMAGENES/Captura de pantalla (290).png" alt="" class="item-img">
+        <img src="../MEDIA/IMAGENES/Captura de pantalla (290).png" alt="" class="item-img">
         <div class="item-text">
          <h3>logo para el futuro juego</h3>
          <p>y por ahora, este es el diseño planeado para cuando estemos desarrollando el juego.</p>
@@ -132,10 +132,10 @@
  </div>
  <footer class="footer">
   <p>
-      <a href="https://www.facebook.com" target="_black"><img src="MEDIA/IMAGENES/facebook.png" alt="image de red social facebook"></a>
-      <a href="https://www.twitter.com" target="_black"><img src="MEDIA/IMAGENES/twitter.png" alt="image de red social twitter"></a>
-      <a href="https://www.gmail.com" target="_black"><img src="MEDIA/IMAGENES/gmail.png" alt="envia un mensaje al administrador"></a>
-   </p>  
+    <a href="https://www.facebook.com" target="_black"><img src="../MEDIA/IMAGENES/facebook.png" alt="image de red social facebook"></a>
+    <a href="https://www.twitter.com" target="_black"><img src="../MEDIA/IMAGENES/twitter.png" alt="image de red social twitter"></a>
+    <a href="https://www.gmail.com" target="_black"><img src="../MEDIA/IMAGENES/gmail.png" alt="envia un mensaje al administrador"></a>
+</p>  
    <br>
    <p>pagina creada el 2021 por juan jose giraldo botero y alejandro duque gomez</p>
 </footer>
