@@ -12,7 +12,7 @@
 <body>
     <div class="contenedor">
         <h1 class="titulo">Menu ADMINISTRADOR</h1>
-        <h1>bienvenido:  NOMBRE DEL ADMINISTRADOR</H1>
+        <h1>bienvenido:</H1>
         <a href="../../PROYECTO CON CRUD/cerrar.php">Cerrar Sesion</a>
 </body>
 </html>
