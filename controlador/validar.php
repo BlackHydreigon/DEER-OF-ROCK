@@ -31,12 +31,12 @@
             //datos de proceso
             if($result[4] != 'u'){
                  //datos de salida
-                echo "<script>window.location='../../PROYECTO CON CRUD/menuusuario.php';</script>";
+                echo "<script>window.location='../../PROYECTO CON CRUD/controlador/menuusuario.php';</script>";
                 }
                 else{
             
                 //datos de salida
-                    echo "<script>window.location='../../PROYECTO CON CRUD/menuadmin.php';</script>"; 
+                    echo "<script>window.location='../../PROYECTO CON CRUD/controlador/menuadmin.php';</script>"; 
             }       
         }
 ?>

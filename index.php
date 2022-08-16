@@ -15,7 +15,7 @@
             <!--inicia el header con bootstrap-->
             <nav class="navbar navbar-expand-lg " style="background-color: rgb(3, 1, 36);">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">
+                    <a class="navbar-brand" href="index.php">
                         <img src="MEDIA/IMAGENES/nlogo.png" alt="" width="60" height="60">
                       </a>
                   
@@ -25,18 +25,18 @@
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                       <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="vista/proyectos.html">conocenos</a>
+                        <a class="nav-link active" aria-current="page" href="vista/proyectos.php">conocenos</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="vista/catalogo.html">catalogo</a>
+                        <a class="nav-link" href="vista/catalogo.php">catalogo</a>
                       </li>
                       <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                           ---
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <li><a class="dropdown-item" href="vista/registro.html">registrarse</a></li>
-                          <li><a class="dropdown-item" href="vista/login.html">inicio de sesion</a></li>
+                          <li><a class="dropdown-item" href="vista/registro.php">registrarse</a></li>
+                          <li><a class="dropdown-item" href="vista/login.php">inicio de sesion</a></li>
                           <li><hr class="dropdown-divider"></li>
                           <li><a class="dropdown-item" href="#"></a></li>
                         </ul>

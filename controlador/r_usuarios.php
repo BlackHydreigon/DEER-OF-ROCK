@@ -18,10 +18,10 @@ if (!empty($_POST["nombrecompleto"])and!empty($_POST["nombre_usuario"])and !empt
     $query_mysql = $con->query($consulta_sql); 
     if($query_mysql!=null){//Preguntamos a la base de datos si viene vacia para tomar una decisión 
         //si viene con una respuesta entonces saca este mensaje de dato de salida en la vista 
-       print "<script>alert(\"Agregado exitosamente.\");window.location='../../PROYECTO CON CRUD/login.html';</script>";
+       print "<script>alert(\"Agregado exitosamente.\");window.location='../../PROYECTO CON CRUD/vista/login.php';</script>";
         }else{
              //si esta vacio entonces saca este mensaje de dato de salida en la vista
-    print "<script>alert(\"No se pudo agregar.\");window.location='../../PROYECTO CON CRUD/registro.html';</script>";
+    print "<script>alert(\"No se pudo agregar.\");window.location='../../PROYECTO CON CRUD/vista/registro.php';</script>";
     }
 }
 ?>
