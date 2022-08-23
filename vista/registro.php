@@ -60,7 +60,7 @@
 
   <section class="form-register">
     <h4>REGISTRATE</h4>
-    <form action="../controlador/r_usuarios.php" method="post">
+    <form action="../controlador/r_usuarios.php" method="post" id="registro">
     <input class="controls" type="text" name="nombrecompleto" id="nombre" placeholder="Nombre completo" required>
     <input class="controls" type="text" name="nombre_usuario" id="apellido" placeholder="nombre de usuario" required>
     <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo" required>

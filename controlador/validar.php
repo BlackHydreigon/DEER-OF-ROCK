@@ -23,17 +23,17 @@
             if($count == 0){ 
             //datos de salida
             echo "<script>
-                alert('Nombre de Usuario o Contraseña Incorrecto, verifique...');window.location='../../PROYECTO CON CRUD/login.html';
+                alert('Nombre de Usuario o Contraseña Incorrecto, verifique...');window.location='../../PROYECTO CON CRUD/vista/login.php';
                 </script>"; 
                 session_destroy();//TERMINA LA SESIONES
             }
             else { //si el registro es valido, verifico si es admin o user
             //datos de proceso
-            if($result[4] != 'u'){
+            if($result[5] != 'a'){
                  //datos de salida
                 echo "<script>window.location='../../PROYECTO CON CRUD/controlador/menuusuario.php';</script>";
                 }
-                else{
+                 else {
             
                 //datos de salida
                     echo "<script>window.location='../../PROYECTO CON CRUD/controlador/menuadmin.php';</script>"; 
