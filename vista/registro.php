@@ -62,14 +62,14 @@
     <h4>REGISTRATE</h4>
     <form action="../controlador/r_usuarios.php" method="post" id="registro">
     <input class="controls" type="text" name="nombrecompleto" id="nombre" placeholder="Nombre completo" required>
-    <input class="controls" type="text" name="nombre_usuario" id="apellido" placeholder="nombre de usuario" required>
+    <input class="controls" type="text" name="nombre_usuario" id="n_usuario" placeholder="nombre de usuario" required>
     <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo" required>
     <input class="controls" type="password" name="contrasena" id="contrasena" placeholder="Ingrese su Contraseña" required>
     <br>
     <input type="hidden" name="perfil" value="u">
     <br>
     <p>Estoy de acuerdo con <a href="#">Terminos y Condiciones</a></p>
-    <input class="botons" type="submit" value="Registrar">
+    <input class="botons" type="submit" value="Registrar" id="Registrar">
     <p><a href="login.html">¿Ya tengo Cuenta?</a></p>
   </form>
   </section>
@@ -82,5 +82,10 @@
      <br>
      <p>pagina creada el 2021 por juan jose giraldo botero y alejandro duque gomez</p>
 </footer>
+
+
+
+
+
 </body>
 </html>
