@@ -7,6 +7,8 @@
   <link rel="stylesheet" href="../CSS/style2.css">
   <link rel="stylesheet" href="../libs/bootstrap/css/bootstrap.min.css">
   <script src="../libs/bootstrap/js/bootstrap.min.js"></script>
+  <script src="../JS/jquery-3.6.0.min.js"></script>
+<script src="../libs/jquery-validate/dist/jquery.validate.min.js"></script>
   <script>
     document.addEventListener('DOMContentLoaded', function() {
       var elems = document.querySelectorAll('.modal');
@@ -61,8 +63,8 @@
   <section class="form-register">
     <h4>REGISTRATE</h4>
     <form action="../controlador/r_usuarios.php" method="post" id="registro">
-    <input class="controls" type="text" name="nombrecompleto" id="nombre" placeholder="Nombre completo" required>
-    <input class="controls" type="text" name="nombre_usuario" id="n_usuario" placeholder="nombre de usuario" required>
+    <input class="controls" type="text" name="nombrecompleto" id="nombrecompleto" placeholder="Nombre completo" required>
+    <input class="controls" type="text" name="nombre_usuario" id="nombre_usuario" placeholder="nombre de usuario" required>
     <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo" required>
     <input class="controls" type="password" name="contrasena" id="contrasena" placeholder="Ingrese su Contraseña" required>
     <br>
@@ -82,6 +84,13 @@
      <br>
      <p>pagina creada el 2021 por juan jose giraldo botero y alejandro duque gomez</p>
 </footer>
+<script src="../JS/jquery-3.6.0.min.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+crossorigin="anonymous"></script>
+<script src="../libs/jquery-validate/dist/jquery.validate.min.js"></script>
+<script src="../JS/funciones.js" ></script>
+
+
+
 
 
 

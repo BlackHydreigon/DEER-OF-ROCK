@@ -118,3 +118,13 @@ border-radius: 5px;
   color: white;
 
 }
+
+label.error{
+  margin: 0px;
+  display: block;
+  color:white;
+}
+input .error{
+  border: 1px solid red;
+  color: red;
+}
