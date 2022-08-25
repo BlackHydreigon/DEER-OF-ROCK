@@ -22,8 +22,7 @@ $(document).ready(function(){
            contrasena:{
             required:true,
             minlength:8
-            mayus : true
-           },
+            },
            correo:{
             required:true,
             email: true
