@@ -6,7 +6,7 @@ if ($varsesion==null || $varsesion='') {
     echo"<script>alert('Usted no tiene autorizacion');window.location='../../vista/registrarse.php';</script>"; 
                 session_destroy();//TERMINA LA SESIONES
 }*/
-if(!empty($_POST)){//!empty($_POST) significa diferente de vacío - verifica los inputs no este vacío
+if(!empty($_POST))//!empty($_POST) significa diferente de vacío - verifica los inputs no este vacío
     if(isset($_POST["nombrecompleto"]) &&isset($_POST["nombre_usuario"]) &&isset($_POST["correo"]) &&isset($_POST["contrasena"]) &&isset($_POST["perfil"]))
     {//la funcion isset() comprobar que la variable existe
             include "conexion.php";//llama a la conexión Para llevar la consulta SQL a la BD
