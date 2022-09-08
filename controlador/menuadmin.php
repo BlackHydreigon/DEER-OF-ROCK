@@ -13,6 +13,6 @@
     <div class="contenedor">
         <h1 class="titulo">Menu ADMINISTRADOR</h1>
         <h1>bienvenido:</H1>
-        <a href="../../PROYECTO CON CRUD/cerrar.php">Cerrar Sesion</a>
+        <a href="../../PROYECTO CON CRUD/controlador/cerrar_sesion.php">Cerrar Sesion</a>
 </body>
 </html>
