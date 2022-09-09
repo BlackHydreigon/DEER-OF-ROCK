@@ -8,7 +8,7 @@
     font-family: arial;
     background-image: url('../MEDIA/IMAGENES/fondo\ body2.jpg');
   }
-  
+  /*a partir de aqui se inicia el codigo de style3.css*/
   .form-login {
     color: aliceblue;
     width: 400px;
@@ -132,6 +132,8 @@
 }
 
   /*aqui termina el el style2.css*/
+    /*a partir de aqui se termina el codigo de style3.css*/
+
  .footer{
   background: #0b0225 ;
   padding: 2rem 0;

@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color:rgb(7, 7, 7);
@@ -177,3 +183,133 @@ border-radius: 5px;
   padding: 8px;
   padding-bottom: 8px;
 }
+  /*a partir de aqui se inicia el codigo de style3.css*/
+  .form-login {
+    color: aliceblue;
+    width: 400px;
+    height: 340px;
+    background:#0a0125 ;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    box-shadow: 2px 13px 37px rgb(104, 156, 233);
+    padding: 20px 30px;
+    border-top: 4px solid #0b0225;
+    color: rgb(255, 255, 255);
+  }
+  
+  .form-login h5 {
+    margin: 0;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 30px;
+    font-size: 20px;
+  }
+  
+  .controls {
+    color: rgb(255, 255, 255);
+    width: 100%;
+    border: 1px solid #017bab;
+    margin-bottom: 15px;
+    padding: 11px 10px;
+    background: #140937;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .buttons {
+    color: ivory;
+    width: 100%;
+    height: 40px;
+    background: #5985e2;
+    border: none;
+    margin-bottom: 16px;
+  }
+  
+  .form-login p{
+  
+    height: 40px;
+    text-align: center;
+    
+  }
+  
+  .form-login a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .form-login a:hover {
+    text-decoration: underline;
+  }
+  .header { 
+    background: #0b0225;
+    color:white;
+    padding:0 ;
+    
+}
+    /*a partir de aqui se termina el codigo de style3.css*/
+
+    
+ /*aqui empieza el el style2.css*/
+ .form-register {
+  width: 400px;
+  background: #0b0225;
+  padding: 30px;
+  margin: auto;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  border-radius: 4px;
+  font-family: 'calibri';
+  color: white;
+  box-shadow: 2px 13px 37px rgb(104, 156, 233);
+}
+
+.form-register h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.controls_r {
+  width: 100%;
+  background: #24303c;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #5985e2;
+  font-family: 'calibri';
+  font-size: 18px;
+  color: white;
+}
+
+.form-register p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.form-register a {
+  color: white;
+  text-decoration: none;
+}
+
+.form-register a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.form-register .botons {
+  width: 100%;
+  background: #5985e2;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+}
+
+  /*aqui termina el el style2.css*/
+
+
+  
