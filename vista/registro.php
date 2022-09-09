@@ -4,10 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="../CSS/style2.css">
+  <link rel="stylesheet" href="../CSS/style3.css">
   <link rel="stylesheet" href="../libs/bootstrap/css/bootstrap.min.css">
   <script src="../libs/bootstrap/js/bootstrap.min.js"></script>
   <script src="../JS/jquery-3.6.0.min.js"></script>
+  <link rel="icon" type="text/css" href="MEDIA/IMAGENES/icono.png">
+
 <script src="../libs/jquery-validate/dist/jquery.validate.min.js"></script>
   <script>
     document.addEventListener('DOMContentLoaded', function() {
@@ -63,10 +65,10 @@
   <section class="form-register">
     <h4>REGISTRATE</h4>
     <form action="../controlador/r_usuarios.php" method="post" id="registro">
-    <input class="controls" type="text" name="nombrecompleto" id="nombrecompleto" placeholder="Nombre completo" required>
-    <input class="controls" type="text" name="nombre_usuario" id="nombre_usuario" placeholder="nombre de usuario" required>
-    <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo" required>
-    <input class="controls" type="password" name="contrasena" id="contrasena" placeholder="Ingrese su Contraseña" required>
+    <input class="controls_r" type="text" name="nombrecompleto" id="nombrecompleto" placeholder="Nombre completo" required>
+    <input class="controls_r" type="text" name="nombre_usuario" id="nombre_usuario" placeholder="nombre de usuario" required>
+    <input class="controls_r" type="email" name="correo" id="correo" placeholder="Ingrese su Correo" required>
+    <input class="controls_r" type="password" name="contrasena" id="contrasena" placeholder="Ingrese su Contraseña" required>
     <br>
     <input type="hidden" name="perfil" value="u">
     <br>
