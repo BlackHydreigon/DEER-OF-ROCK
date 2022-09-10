@@ -37,8 +37,6 @@
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                           <li><a class="dropdown-item" href="vista/registro.php">registrarse</a></li>
                           <li><a class="dropdown-item" href="vista/login.php">inicio de sesion</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="#"></a></li>
                         </ul>
                       </li>
                       <li class="nav-item">

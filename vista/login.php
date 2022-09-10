@@ -6,7 +6,7 @@
     <script src="../libs/bootstrap/js/bootstrap.min.js"></script>
 
 
-    <link rel="stylesheet" href="../CSS/estilo.css">
+    <link rel="stylesheet" href="../CSS/estilo_f.css">
     <link rel="stylesheet" href="../libs/bootstrap/css/bootstrap.min.css">
 
   </head>

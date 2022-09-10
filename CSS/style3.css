@@ -15,8 +15,8 @@
     height: 340px;
     background:#0a0125 ;
     margin: auto;
-    margin-top: 50px;
-    margin-bottom: 80px;
+    margin-top: 10%;
+    margin-bottom: 30%;
     box-shadow: 2px 13px 37px rgb(104, 156, 233);
     padding: 20px 30px;
     border-top: 4px solid #0b0225;
@@ -79,7 +79,7 @@
   background: #0b0225;
   padding: 30px;
   margin: auto;
-  margin-bottom: 50px;
+  margin-bottom: 20%;
   margin-top: 50px;
   border-radius: 4px;
   font-family: 'calibri';
