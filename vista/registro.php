@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="../CSS/estilo_f.css">
+  <link rel="stylesheet" href="../CSS/style3.css">
   <link rel="stylesheet" href="../libs/bootstrap/css/bootstrap.min.css">
   <script src="../libs/bootstrap/js/bootstrap.min.js"></script>
   <script src="../JS/jquery-3.6.0.min.js"></script>

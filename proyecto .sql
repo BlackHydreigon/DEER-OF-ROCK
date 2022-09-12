@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 05-08-2022 a las 05:28:21
+-- Tiempo de generación: 12-09-2022 a las 03:41:55
 -- Versión del servidor: 10.4.24-MariaDB
 -- Versión de PHP: 8.1.6
 
@@ -20,6 +20,21 @@ SET time_zone = "+00:00";
 --
 -- Base de datos: `proyecto`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `productos`
+--
+
+CREATE TABLE `productos` (
+  `id_producto` int(11) NOT NULL,
+  `nombre_producto` varchar(200) NOT NULL,
+  `imagen_producto` varchar(200) NOT NULL,
+  `descripcion` varchar(2000) NOT NULL,
+  `precio` int(11) NOT NULL,
+  `estado` char(1) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -41,11 +56,19 @@ CREATE TABLE `usuarios` (
 --
 
 INSERT INTO `usuarios` (`Id`, `nombre_completo`, `N_usuario`, `correo`, `contrasena`, `perfil`) VALUES
-(1, 'juan jose giraldo botero', 'jjbotero', 'jjbotero@gmail.com', '1020404723', 'u');
+(6, 'juan jose giraldo botero', 'juanjosejuan', 'juanjosejuan@gmail.com', '1020404723', 'a'),
+(7, 'juan jose giraldo botero', 'juanjosejuan', 'juanjosejuan@gmail.com', '120323132', 'u'),
+(8, 'camila cano mancilla', 'camilagamer123', 'camila@gmail.com', '12345678', 'u');
 
 --
 -- Índices para tablas volcadas
 --
+
+--
+-- Indices de la tabla `productos`
+--
+ALTER TABLE `productos`
+  ADD PRIMARY KEY (`id_producto`);
 
 --
 -- Indices de la tabla `usuarios`
@@ -58,10 +81,16 @@ ALTER TABLE `usuarios`
 --
 
 --
+-- AUTO_INCREMENT de la tabla `productos`
+--
+ALTER TABLE `productos`
+  MODIFY `id_producto` int(11) NOT NULL AUTO_INCREMENT;
+
+--
 -- AUTO_INCREMENT de la tabla `usuarios`
 --
 ALTER TABLE `usuarios`
-  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

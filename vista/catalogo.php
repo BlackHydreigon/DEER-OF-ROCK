@@ -1,3 +1,14 @@
+<?php 
+include ("../controlador/conexion.php");
+$sql1= "select nombre_producto,imagen_producto,precio from productos where estado='a'";
+$query = $con->query($sql1);
+$r=$query->fetch_array()
+
+?>
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
