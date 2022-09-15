@@ -181,10 +181,6 @@ border-radius: 5px;
 .pestaña_c{
   margin: 10px;
   height: 26rem;
-  border-color: rgb(0, 0, 0);
-  background-color: #0b0225;
-  
-  border-style: inset;
 }
 .pestaña_c img{
   max-height: 410px;

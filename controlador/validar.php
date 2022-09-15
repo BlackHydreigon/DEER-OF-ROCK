@@ -1,6 +1,6 @@
 <?php
         session_start();//INICIA LAS SESIONES SEGUN EL PERFIL
-        include_once "conexion.php";
+        include "../modelo/conexion.php";
         //Recibo los datos del formulario de inicio de sesion
             $nom = $_POST['usuario']; 
             $pwd = $_POST['contrasena']; 

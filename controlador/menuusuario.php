@@ -10,14 +10,13 @@
     <title>Document</title>
 </head>
 <body>
-<div class="contenedor">
-    <header>
+           <header>
 
 <div class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container">
     <a href="#" class="navbar-brand">
-      <img src="../MEDIA/IMAGENES/nlogo.png" width="65px" height="68px">
-       <strong>Album</strong>
+      <img src="MEDIA/IMAGENES/nlogo.png" width="65px" height="68px">
+       <strong>DEER OF  ROCK</strong>
     </a>
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
@@ -30,25 +29,28 @@
   <div class="collapse navbar-collapse" id="navbarHeader">
     <ul class="navbar-nav me-auto mb2 mb-lg-0">
       <li class="nav-item">
-        <a href="" class="nav-link active">catalogo</a>
+        <a href="vista/conocenos.php" class="nav-link active">conocenos</a>
       </li>
 
       <li class="nav-item">
-        <a href="" class="nav-link active">conocenos</a>
+        <a href="vista/registro.php" class="nav-link active">registrate</a>
       </li>
 
       <li class="nav-item">
-        <a href="../../PROYECTO CON CRUD/controlador/cerrar_sesion.php" class="nav-link active">cerrar_sesion</a>
+        <a href="vista/login.php" class="nav-link active">inicia_sesion</a>
+
+
       </li>
-    </ul>
+      <a href="" class="nav-link active"></a>
 
   </div>
 
 
 
 </div>
+
 </header>
-       
+
     
 </body>
 </html>

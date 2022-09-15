@@ -1,7 +1,7 @@
 <?php
 
 if (!empty($_POST["nombrecompleto"])and!empty($_POST["nombre_usuario"])and !empty($_POST["correo"]) and !empty($_POST["contrasena"])and !empty($_POST["perfil"])){
-    include ('conexion.php');
+    include ('../modelo/conexion.php');
     echo '<br><br>';
 
     $nombre=  $_POST["nombrecompleto"];

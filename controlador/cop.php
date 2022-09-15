@@ -17,10 +17,10 @@ if(!empty($_POST))//!empty($_POST) significa diferente de vacío - verifica los 
             //RESPUESTA DEL BD 
             if($query!=null){//Preguntamos a la base de datos si viene vacia para tomar una decisión 
                 //si viene con una respuesta entonces saca este mensaje de dato de salida en la vista 
-               print "<script>alert(\"Agregado exitosamente.\");window.location='../../registro.html';</script>";
+               print "<script>alert(\"Agregado exitosamente.\");window.location='../../registro.php';</script>";
                 // }else{
                      //si esta vacio entonces saca este mensaje de dato de salida en la vista
-            print "<script>alert(\"No se pudo agregar.\");window.location='../../registro.html';</script>";
+            print "<script>alert(\"No se pudo agregar.\");window.location='../../registro.php';</script>";
             }
         }
     //}       

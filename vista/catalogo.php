@@ -1,9 +1,5 @@
 <?php 
-include ("../controlador/conexion.php");
-$sql1= "select nombre_producto,imagen_producto,precio from productos where estado='a'";
-$query = $con->query($sql1);
-$r=$query->fetch_array()
-
+include ("../modelo/conexion.php");
 ?>
 
 
@@ -73,6 +69,13 @@ $r=$query->fetch_array()
 
 <main>
   <div class="container">
+    <?php
+    $sql1= "select nombre_producto,imagen_producto,precio from productos";
+    $query = $con->query($sql1);
+    while($r=$query->fetch_array($query)){
+      
+    }
+
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
       <div class="col">
         <div class="card shadow-sm"> 
@@ -90,6 +93,7 @@ $r=$query->fetch_array()
           </div>
         </div>
       </div>
+      ?>
   </div>
 </main>
 
