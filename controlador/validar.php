@@ -7,7 +7,7 @@
 
             //asigno el valor almacenado en la variable php siempre y cuando sea asignado desde la TABLA DE LA BD
             $_SESSION['usuario'] = $nom; 
-            $sql="SELECT * from usuarios where N_usuario='$nom' and contrasena='$pwd'";
+            $sql="SELECT * from usuario where nombre_usuario='$nom' and contrasena='$pwd'";
             $rec=$con->query($sql);//rec es un objeto de tipo con 
             $count=0;
             

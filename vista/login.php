@@ -62,14 +62,10 @@
     </form>
 
     </section>
-    <footer class="footer">
-      <p>
-        <a href="https://www.facebook.com" target="_black"><img src="../MEDIA/IMAGENES/facebook.png" alt="image de red social facebook"></a>
-        <a href="https://www.twitter.com" target="_black"><img src="../MEDIA/IMAGENES/twitter.png" alt="image de red social twitter"></a>
-        <a href="https://www.gmail.com" target="_black"><img src="../MEDIA/IMAGENES/gmail.png" alt="envia un mensaje al administrador"></a>
-       </p>  
-       <br>
-       <p>pagina creada el 2021 por juan jose giraldo botero y alejandro duque gomez</p>
+    <footer id="sticky-footer" class="flex-shrink-0 py-4 text-white" style="background-color:#00135e;">
+    <div class="container text-center">
+      <small>Copyright &copy; DESARROLLADO POR: JUAN JOSE GIRALDO BOTERO__ALEJANDRO DUQUE GOMEZ__JUAN ESTEBAN JIMENEZ GALLEGO</small>
+    </div>
   </footer>
   </body>
 </html>

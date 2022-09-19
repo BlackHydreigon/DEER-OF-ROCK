@@ -67,9 +67,9 @@
   <section class="form-register">
     <h4>REGISTRATE</h4>
     <form action="../controlador/r_usuarios.php" method="post" id="registro">
-    <input class="controls_r" type="text" name="nombrecompleto" id="nombrecompleto" placeholder="Nombre completo" required>
+    <input class="controls_r" type="text" name="nombre" id="nombre" placeholder="Nombre completo" required>
     <input class="controls_r" type="text" name="nombre_usuario" id="nombre_usuario" placeholder="nombre de usuario" required>
-    <input class="controls_r" type="email" name="correo" id="correo" placeholder="Ingrese su Correo" required>
+    <input class="controls_r" type="email" name="email" id="email" placeholder="Ingrese su Correo" required>
     <input class="controls_r" type="password" name="contrasena" id="contrasena" placeholder="Ingrese su Contraseña" required>
     <br>
     <input type="hidden" name="perfil" value="u">
@@ -79,15 +79,11 @@
     <p><a href="login.html">¿Ya tengo Cuenta?</a></p>
   </form>
   </section>
-  <footer class="footer">
-    <p>
-        <a href="https://www.facebook.com" target="_black"><img src="../MEDIA/IMAGENES/facebook.png" alt="image de red social facebook"></a>
-        <a href="https://www.twitter.com" target="_black"><img src="../MEDIA/IMAGENES/twitter.png" alt="image de red social twitter"></a>
-        <a href="https://www.gmail.com" target="_black"><img src="../MEDIA/IMAGENES/gmail.png" alt="envia un mensaje al administrador"></a>
-     </p>  
-     <br>
-     <p>pagina creada el 2021 por juan jose giraldo botero y alejandro duque gomez</p>
-</footer>
+  <footer id="sticky-footer" class="flex-shrink-0 py-4 text-white" style="background-color:#00135e;">
+    <div class="container text-center">
+      <small>Copyright &copy; DESARROLLADO POR: JUAN JOSE GIRALDO BOTERO__ALEJANDRO DUQUE GOMEZ__JUAN ESTEBAN JIMENEZ GALLEGO</small>
+    </div>
+  </footer>
 <script src="../JS/jquery-3.6.0.min.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
 crossorigin="anonymous"></script>
 <script src="../libs/jquery-validate/dist/jquery.validate.min.js"></script>

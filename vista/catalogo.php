@@ -97,6 +97,10 @@ include ("../modelo/conexion.php");
       ?>
   </div>
 </main>
-
+<footer id="sticky-footer" class="flex-shrink-0 py-4 text-white" style="background-color:#00135e;">
+    <div class="container text-center">
+      <small>Copyright &copy; DESARROLLADO POR: JUAN JOSE GIRALDO BOTERO__ALEJANDRO DUQUE GOMEZ__JUAN ESTEBAN JIMENEZ GALLEGO</small>
+    </div>
+  </footer>
 </body>
 </html>
