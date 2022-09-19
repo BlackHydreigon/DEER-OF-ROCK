@@ -11,47 +11,43 @@
     </head>
     <body>
                     <!--inicia el header con bootstrap-->
-                    <nav class="navbar navbar-expand-lg " style="background-color: rgb(3, 1, 36);">
-                        <div class="container-fluid">
-                            <a class="navbar-brand" href="../index.php">
-                                <img src="../MEDIA/IMAGENES/nlogo.png" alt="" width="60" height="60">
-                              </a>
-                          
-                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                          </button>
-                          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                              <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="proyectos.php">conocenos</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link" href="catalogo.php">catalogo</a>
-                              </li>
-                              <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                  ---
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                  <li><a class="dropdown-item" href="registro.php">registrarse</a></li>
-                                  <li><a class="dropdown-item" href="login.php">inicio de sesion</a></li>
-                                  <li><hr class="dropdown-divider"></li>
-                                  <li><a class="dropdown-item" href="#"></a></li>
-                                </ul>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                              </li>
-                            </ul>
-                            <form class="d-flex">
-                              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                              <button class="btn btn-outline-success" type="submit">Search</button>
-                            </form>
-                          </div>
-                        </div>
-                      </nav>
-        
-                 </header>
+                    <header>
+
+<div class="navbar navbar-expand-lg navbar-dark " style="background-color:#00135e;">
+  <div class="container">
+    <a href="../index.php" class="navbar-brand">
+      <img src="../MEDIA/IMAGENES/nlogo.png" width="65px" height="68px">
+       <strong>DEER OF  ROCK</strong>
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+    data-bs-target="#navbarHeader" aria-controls="navbarHeader" 
+    aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </div>
+
+  <div class="collapse navbar-collapse" id="navbarHeader">
+    <ul class="navbar-nav me-auto mb2 mb-lg-0">
+
+      <li class="nav-item">
+        <a href="registro.php" class="nav-link active">registrate</a>
+      </li>
+
+      <li class="nav-item">
+        <a href="login.php" class="nav-link active">inicia_sesion</a>
+
+
+      </li>
+      <a href="" class="nav-link active"></a>
+
+  </div>
+
+
+
+</div>
+
+</header>
                  <!--aqui finaliza el header con bootstrap-->
         
 

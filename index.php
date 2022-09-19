@@ -11,9 +11,9 @@
     <body>
     <header>
 
-<div class="navbar navbar-expand-lg navbar-dark bg-dark">
+<div class="navbar navbar-expand-lg navbar-dark " style="background-color:#00135e;">
   <div class="container">
-    <a href="#" class="navbar-brand">
+    <a href="index.php" class="navbar-brand">
       <img src="MEDIA/IMAGENES/nlogo.png" width="65px" height="68px">
        <strong>DEER OF  ROCK</strong>
     </a>

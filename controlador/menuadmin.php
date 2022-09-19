@@ -34,11 +34,11 @@
       </li>
 
       <li class="nav-item">
-        <a href="" class="nav-link active">conocenos</a>
+        <a href="" class="nav-link active">agregar_producto</a>
       </li>
 
       <li class="nav-item">
-        <a href="../../PROYECTO CON CRUD/controlador/cerrar_sesion.php" class="nav-link active">cerrar_sesion</a>
+        <a href="../../PROYECTO CON CRUD/modelo/cerrar_sesion.php" class="nav-link active">cerrar_sesion</a>
       </li>
     </ul>
 
