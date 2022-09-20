@@ -76,7 +76,7 @@
     <br>
     <p>Estoy de acuerdo con <a href="#">Terminos y Condiciones</a></p>
     <input class="botons" type="submit" value="Registrar" id="Registrar">
-    <p><a href="login.html">¿Ya tengo Cuenta?</a></p>
+    <p><a href="login.php">¿Ya tengo Cuenta?</a></p>
   </form>
   </section>
   <footer id="sticky-footer" class="flex-shrink-0 py-4 text-white" style="background-color:#00135e;">

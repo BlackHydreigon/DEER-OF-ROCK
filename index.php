@@ -2,7 +2,7 @@
     <head>
         <title>deer of rock</title>
         <meta charset="utf-8">
-        <link rel="icon" type="text/css" href="MEDIA/IMAGENES/icono.png">
+        <link rel="icon" type="text/css" href="MEDIA/IMAGENES/nlogo.png">
         <link rel="stylesheet" type="text/css" href="CSS/estilo.css">
         <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">        
         <script src="libs/bootstrap/js/bootstrap.min.js"></script>
